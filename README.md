@@ -18,6 +18,26 @@ As such, the Wolfson codec is really "pain in the ass" where the NACK behavior i
 
 To make use of such obsolete codec, GPIO bitband IIC must be used !!!
 
+# Kernel Control
+
+```
+brian@brian:~$ aplay -l
+brian@brian:~$ aplay -l
+**** List of PLAYBACK Hardware Devices ****
+card 0: WM8978 [Wolfson WM8978], device 0: opencores-i2s-wm8978-hifi wm8978-hifi-0 [opencores-i2s-wm8978-hifi wm8978-hifi-0]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+brian@brian:~$ arecord -l
+**** List of CAPTURE Hardware Devices ****
+card 0: WM8978 [Wolfson WM8978], device 0: opencores-i2s-wm8978-hifi wm8978-hifi-0 [opencores-i2s-wm8978-hifi wm8978-hifi-0]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+brian@brian:~$
+```
+
+<img width="678" height="381" alt="image" src="https://github.com/user-attachments/assets/b5b87207-0813-461c-a02e-80213b95fd07" />
+
+
 # Device Tree
 
 ```
