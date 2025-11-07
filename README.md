@@ -1,5 +1,13 @@
 # Cyclone V SoC ALSA WM8978G
 
+## If this project is constructive, welcome to donate a drink to PayPal.
+
+<img src="images/qrcode.png" style="height:20%; width:20%">
+
+or 
+
+paypal.me/briansune
+
 # Project Descriptions
 
 This project is making use of previous ALSA I2S driver.
